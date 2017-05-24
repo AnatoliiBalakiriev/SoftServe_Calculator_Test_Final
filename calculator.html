@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ru">
+   <head>
+      <meta charset="UTF-8" />
+      <title>Калькулятор</title>
+      <link rel="stylesheet" type="text/css" href="./css/style.css">
+   </head>
+   <body>
+      <header>
+         <a href="./index.html">
+         <img src="./img/webLogo.png" alt="logo" /> <!-- width="138" -->
+         </a>
+         <h1>
+            Основы Web-технологий
+         </h1>
+         <nav>
+            <ul id="menu">
+               <li>
+                  <a href="./index.html">
+                      Главная
+                  </a>
+               </li>
+               <li>
+                  <a href="./web-technologies.html">
+                      Web-технологии
+                  </a> 
+                  <ul>
+                     <li>
+                        <a href="./html5.html">
+                            HTML5
+                        </a> 
+                     </li>
+                     <li>
+                        <a href="./css3.html">
+                            CSS3
+                        </a>
+                     </li>
+                     <li>
+                        <a href="./javaScript.html">
+                            JavaScript
+                        </a>
+                     </li>
+                  </ul>
+               </li>
+               <li>
+                  <a href="./calculator.html">
+                      Калькулятор
+                  </a>
+               </li>
+               <li>
+                  <a href="./test.html">
+                      Тест
+                  </a>
+               </li>
+            </ul>
+         </nav>
+      </header>
+      <div class="main-content">
+          <main class="calculator">
+             <form name="calc">
+                <table>
+                   <tr>
+                      <td colspan="5">
+                         <input type="text" id="text"  class="display" value = "" />
+                      </td>
+                   </tr>
+                   <tr>
+                      <td>
+                         <button type="button" name="seven">
+                             7
+                         </button>
+                      </td>
+                      <td>
+                         <button type="button" name="eight">
+                             8
+                         </button>
+                      </td>
+                      <td>
+                         <button type="button" name="nine">
+                             9
+                         </button>
+                      </td>
+                      <td>
+                         <button type="button" name="divide">
+                             /
+                         </button>
+                      </td>
+                      <td>
+                         <button type="button" name="clear">
+                             C
+                         </button>
+                      </td>
+                   </tr>
+                   <tr>
+                      <td>
+                         <button type="button" name="four">
+                             4
+                         </button>
+                      </td>
+                      <td>
+                         <button type="button" name="five">
+                             5
+                         </button>
+                      </td>
+                      <td>
+                         <button type="button" name="six">
+                             6
+                         </button>
+                      </td>
+                      <td>
+                         <button type="button" name="multiplication">
+                             *
+                         </button>
+                      </td>
+                      <td>
+                         <button type="button" name="plusMinus">
+                         &plusmn;
+                         </button>
+                      </td>
+                   </tr>
+                   <tr>
+                      <td>
+                         <button type="button" name="one" value="one">
+                             1
+                         </button>
+                      </td>
+                      <td>
+                         <button type="button" name="two">
+                             2
+                         </button>
+                      </td>
+                      <td>
+                         <button type="button" name="three">
+                             3
+                         </button>
+                      </td>
+                      <td>
+                         <button type="button" name="minus">
+                             -
+                         </button>
+                      </td>
+                      <td rowspan="2">
+                         <button type="button" name="equally" class="equally">
+                             =
+                         </button>
+                      </td>
+                   </tr>
+                   <tr>
+                      <td colspan="2">
+                         <button type="button" name="zero" class="zero">
+                             0
+                         </button>
+                      </td>
+                      <td>
+                         <button type="button" name="dot">
+                             .
+                         </button>
+                      </td>
+                      <td>
+                         <button type="button" name="plus">
+                             +
+                         </button>
+                      </td>
+                   </tr>
+                </table>
+             </form>
+          </main>
+       </div>
+      <footer>
+         <address>
+            <a href="mailto:mail@mail">
+                Пишите: mail@mail
+            </a>
+         </address>
+         &copy;Фамилия И.О., год
+      </footer>
+      <script src="./js/script_calc.js"></script>
+   </body>
+</html>
