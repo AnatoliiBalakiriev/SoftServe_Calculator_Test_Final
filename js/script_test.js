@@ -50,7 +50,7 @@ var myTest = (function (answers) {
             }
 
             function finalResult() {
-
+                if(balance < 0) balance = 0;
                 var percentage = (balance * 100) / 10;
                 alert("Your result is: " + balance + "\n" + "Percent of correct answers: " + percentage);
             }
